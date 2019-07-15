@@ -1,7 +1,6 @@
 cc_library_shared {
     name: "android.hardware.vibrator@1.2-impl",
     defaults: ["hidl_defaults"],
-    proprietary: true,
     relative_install_path: "hw",
     srcs: ["Vibrator.cpp"],
     shared_libs: [
